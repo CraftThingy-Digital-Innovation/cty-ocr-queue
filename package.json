@@ -1,0 +1,35 @@
+{
+  "name": "@craftthingy-digital-innovation/cty-ocr-queue",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftThingy-Digital-Innovation/cty-ocr-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CraftThingy-Digital-Innovation/cty-ocr-queue/issues"
+  },
+  "homepage": "https://github.com/CraftThingy-Digital-Innovation/cty-ocr-queue#readme",
+  "main": "./dist/cty-ocr-queue.umd.js",
+  "module": "./dist/cty-ocr-queue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/cty-ocr-queue.es.js",
+      "require": "./dist/cty-ocr-queue.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}

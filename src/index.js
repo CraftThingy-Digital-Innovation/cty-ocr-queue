@@ -193,3 +193,7 @@ export class OcrQueueManager {
         return Math.random().toString(36).substring(2, 9);
     }
 }
+
+if (typeof window !== 'undefined') {
+    window.OcrQueueManager = OcrQueueManager;
+}

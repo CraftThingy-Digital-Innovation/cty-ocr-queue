@@ -1,6 +1,7 @@
 {
   "name": "@craftthingy-digital-innovation/cty-ocr-queue",
-  "version": "1.0.0",
+  "description": "Isomorphic sequential background queue manager for client-side and server-side OCR processing.",
+  "version": "1.0.1",
   "type": "module",
   "repository": {
     "type": "git",
